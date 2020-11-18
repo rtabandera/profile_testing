@@ -1,0 +1,30 @@
+---
+title: "recreational catch 1950-2019"
+author: "Ricky Tabandera"
+date: "11/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+rec_landings_1950_2019<-read.csv("foss_landings_REC_1950_2019_MA_NE.csv", stringsAsFactors = T)
+```
+
+## Recreational catches time serise 
+This data was sourced from [FOSS -Fisheries One Stop Shop](https://foss.nmfs.noaa.gov/apexfoss/f?p=215:200:4615327020711::NO:::) and is inclusive of `r 
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
